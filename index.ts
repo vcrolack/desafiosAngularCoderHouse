@@ -19,6 +19,7 @@ while (dentroBucle) {
       alert(`Has ingresado un cuadrado con lado: ${cuadradoUsuario.lado} cm` );
       alert(`Tu cuadrado tiene un perímetro de ${cuadradoUsuario.perimetro} centímetros y un área de ${cuadradoUsuario.area} centímetros cuadrados.`);
       break;
+    //calcular circulo
     case 2:
       let radioUsuario: number = parseInt(prompt('Ingrese el radio del círculo: '));
       let perimetroCir: number = parseFloat(perimetroCirculo(radioUsuario).toFixed(2));
@@ -34,6 +35,7 @@ while (dentroBucle) {
       alert(`Has ingresado un circulo con un radio de: ${circuloUsuario.radio} cm, lo cual se traduce a un diametro de ${circuloUsuario.diametro} cm`)
       alert(`Tu círculo tiene un perímetro de ${circuloUsuario.perimetro} centímetros y una área de ${circuloUsuario.area} centímetros cuadrados.`);
       break;
+    //calcular triangulo
     case 3:
       let lado1Usuario: number = parseInt(prompt('Ingrese lado 1 del triángulo: '));
       let lado2Usuario: number = parseInt(prompt('Ingrese lado 2 del tríangulo: '));
@@ -54,10 +56,12 @@ while (dentroBucle) {
       alert(`Has ingresado un triangulo con lados ${trianguloUsuario.lado1} y ${trianguloUsuario.lado2} cm, con una base de ${trianguloUsuario.base} cm y con una altura de ${trianguloUsuario.altura} cm`);
       alert(`Tu triángulo tiene un perímetro de ${trianguloUsuario.perimetro} centrímetros y una área de ${trianguloUsuario.area} centímetros cuadrados.`)
       break;
+    //salir
     case 0:
       alert('Gracias por escogernos!');
       dentroBucle = false;
       break;
+    //opcion ingresada no coincide
     default:
       alert('Ingresa una opción válida, por favor.');
       break;
@@ -95,6 +99,7 @@ function areaTriangulo (base: number, altura: number): number {
   return areaTriangulo;
 }
 
+//Interfaces de las figuras
 interface CuadradoInterface {
   lado: number;
   perimetro?: number;
