@@ -1,0 +1,19 @@
+{
+  "name": "desafiosangularcoderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcrolack/desafiosAngularCoderHouse.git"
+  },
+  "author": "Victor Rolack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcrolack/desafiosAngularCoderHouse/issues"
+  },
+  "homepage": "https://github.com/vcrolack/desafiosAngularCoderHouse#readme"
+}
