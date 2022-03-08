@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vcrolack/desafiosAngularCoderHouse/issues"
   },
-  "homepage": "https://github.com/vcrolack/desafiosAngularCoderHouse#readme"
+  "homepage": "https://github.com/vcrolack/desafiosAngularCoderHouse#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
 }
